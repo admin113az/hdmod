@@ -127,6 +127,27 @@
 		.list-ech {
 			color: rgb(22, 78, 60);
 		}
+
+		.new {
+			background-color: #ffcccc; /* Màu nền đỏ nhạt cho thẻ ul */
+			padding: 10px; /* Khoảng cách giữa mép thẻ và nội dung bên trong */
+			position: relative; /* Đặt vị trí tương đối để có thể sử dụng absolute cho con */
+		}
+
+		.new::before {
+			content: "new"; /* Hiển thị chữ "new" */
+			position: absolute; /* Đặt vị trí tuyệt đối trong thẻ ul */
+			top: 0; /* Nằm ở góc trên thẻ ul */
+			left: 0; /* Nằm ở góc trái thẻ ul */
+			color: white; /* Màu chữ "new" */
+			background-color: #e74c3c; /* Màu nền đỏ cho chữ "new" */
+			padding: 5px; /* Khoảng cách giữa chữ "new" và mép thẻ */
+			border-radius: 50%;
+			text-shadow: 1px 1px 3px rgba(201, 191, 191, 0.5);
+		}
+
+
+
 		</style>
 	</head>
 
@@ -182,7 +203,7 @@
 						CHỨNG CHỈ</h2>
 
 					<ul><a
-							href="https://raw.githubusercontent.com/nhutgg/nhutgg.github.io/main/mobileconfig/dnspronew.mobileconfig">DNS
+							href="https://raw.githubusercontent.com/nhutgg/nhutgg.github.io/main/mobileconfig/dns_anticert_bynhutgg.mobileconfig">DNS
 							NHUTGG</a></ul>
 				</div>
 				<div class="task-esign">
@@ -192,6 +213,32 @@
 							GROUP.</b> NẾU LÀM NHƯ VIDEO ĐÃ CHỈ MÀ CÀI HẾT LIST ESIGN BÊN DƯỚI MÀ VẪN
 						KHÔNG ĐƯỢC THÌ MÁY BẠN HIỆN TẠI CHƯA CÓ BẢN ESIGN THÍCH HỢP VỚI MÁY BẠN,
 						VUI LÒNG ĐỢI NHÉ !</h5>
+					<ul>
+						<li>
+							<a class="new" href="#"
+								onclick="(function() { window.open('itms-services://?action=download-manifest&url=https://nhutgg.github.io/install/plist/ESign-Rizhao.plist', '_blank'); })()">Esign
+								Rizhao Sunday Power Generation </a>
+							<a class="new"
+								href
+								class="cc"
+								onclick="(function() { window.open('https://www.mediafire.com/file/tgzenikesr1lnh3/Rizhao+Sunday+Power+Generation+Co+Ltd.zip/file', '_blank'); })()">Click
+								để tải xuống chứng chỉ Rizhao Sunday Power Generation</a>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<a class="new" href="#"
+								onclick="(function() { window.open('itms-services://?action=download-manifest&url=https://nhutgg.github.io/install/plist/ANBANG.plist', '_blank'); })()">Esign
+								ANBANG INSURANCE LTD </a>
+							<a class="new"
+								href
+								class="cc"
+								onclick="(function() { window.open('https://www.mediafire.com/file/wvolst5v0vopdp5/ANBANG+INSURANCE+LTD.zip/file', '_blank'); })()">Click
+								để tải xuống chứng chỉ ANBANG INSURANCE LTD</a>
+						</li>
+					</ul>
+
 					<ul>
 						<li>
 							<a href="#"
@@ -533,7 +580,7 @@
 							trợ mod <b>VER2</b> 27/01</a></ul>
 					<ul><a href="https://mneylink.com/Lqmodv3" target="_blank">Liên quân hỗ
 							trợ mod <b>VER3</b> 28/01</a></ul>
-					
+
 					<ul><a href="https://mneylink.com/Modv4f" target="_blank">Liên quân hỗ
 							trợ mod <b>VER4F</b> 31/01</a></ul>
 
@@ -548,7 +595,6 @@
 					<ul><a href="https://mneylink.com/Lqhmv3" target="_blank">
 							Map Liên Quân Có HỖ TRỢ MOD SKIN <b>VER3</b> 28/01</a></ul>
 
-					
 					<ul><a href="https://mneylink.com/Mapv4f" target="_blank">
 							Map Liên Quân Có HỖ TRỢ MOD SKIN <b>VER4F</b> 31/01</a></ul>
 
